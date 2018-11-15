@@ -27,7 +27,6 @@ h2.awesome{
 #mail-listing{
 	margin:auto;
   width: 50%;
-  background-color: #fff;
 }
 
 #mail-success{
@@ -389,7 +388,7 @@ Main components
 
 .cd-faq-content p {
   font-size: 14px;
-  font-size: 1.275rem;
+  font-size: 1.5rem;
   line-height: 1.4;
   color: #6c7d8e;
 }
@@ -527,15 +526,16 @@ strong {
   html .login-wrap h2 {
 	background: #0066ff;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 700;
 	font-size: 2em;
 	margin-top: 10px;
 	color: #ffffff;
 	padding-top: 7%;
   }
   html .login-wrap h2 small {
-	font-size: 12px;
+	font-size: 14px;
 	color: #fff;
+	font-weight: 1000;
   }
   html .login-wrap .form {
 	padding-top: 20px;
@@ -633,8 +633,8 @@ h4 {
 	font-size:20px;
 }
 h4.lead {
-	font-size:14px;
-	font-weight:100;
+	font-size:15px;
+	font-weight:300;
 }
 h5 {
 	font-size:18px;
@@ -644,7 +644,7 @@ h6 {
 }
 p.lead {
 	font-size:24px;
-	font-weight:200;
+	font-weight:300;
 }
 p {
 	margin-bottom:20px;
@@ -670,7 +670,7 @@ pre {
 	margin-bottom:20px;
 }
 .lighter {
-	font-weight:100;
+	font-weight:300;
 }
 img {
 	max-width: 100%;
@@ -780,9 +780,9 @@ ul.fanta {
 	transition:all .2s;
 }
 .btn {
-	font-weight:400;
+	font-weight:700;
 	text-transform:uppercase;
-	font-size:13px;
+	font-size:20px;
 	letter-spacing:3px;
 }
 .btn:hover,.btn:focus {
@@ -940,8 +940,12 @@ label {
 .input-group {
 	margin-bottom:10px;
 }
+.form-control::placeholder{
+	color:#000;
+	
+}
 .form-control {
-	font-weight:300;
+	font-weight:600;
 	border-color:#ecf0f1;
 	background-color:#ecf0f1;
 		border-radius:0px;
@@ -954,6 +958,8 @@ label {
 	-o-transition:all .2s;
 	-webkit-transition:all .2s;
 	transition:all .2s;
+	height: 44px;
+	font-size: 22px;
 }
 .form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control,.form-control[disabled]:hover,.form-control[readonly]:hover,fieldset[disabled] .form-control:hover,.form-control[disabled]:focus,.form-control[readonly]:focus,fieldset[disabled] .form-control:focus {
 	background-color:#ecf0f1;
@@ -1094,7 +1100,7 @@ label {
 /*	Hero	==================================================*/
 #hero {
 	margin-top:90px;
-	padding:0;
+	padding-top: 60px;
 	color:#FFF;
 }
 #hero .herotext {
@@ -1104,10 +1110,11 @@ label {
 	font-size:50px;
 }
 #hero p.lead {
-	font-size:1em;
+	font-size:1.1em;
 }
 #hero .btn {
-	font-size:12px;
+	font-size:18px;
+	font-weight: 700;
 }
 /*	Features	==================================================*/
 #features {
