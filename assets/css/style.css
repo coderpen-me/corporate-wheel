@@ -1,7 +1,7 @@
 
 body {
 	color:#444;
-	font:normal 16px "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	font-weight:300;
 	background-color:#fff;
 	overflow-x:hidden;
@@ -39,7 +39,6 @@ h2.awesome{
 form.get_quote{
   width: 80%;
   margin: auto;
-  padding: 0px 50px 40px 70px;
 }
 
 .form-control{
@@ -614,7 +613,7 @@ a:hover,a:focus {
 	text-decoration:none;
 }
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-	font-family:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	font-weight:bold;
 	margin-top:0;
 	color: black;
@@ -633,8 +632,8 @@ h4 {
 	font-size:20px;
 }
 h4.lead {
-	font-size:15px;
-	font-weight:300;
+	font-size:16px;
+	font-weight:400;
 }
 h5 {
 	font-size:18px;
@@ -1099,7 +1098,7 @@ label {
 }
 /*	Hero	==================================================*/
 #hero {
-	margin-top:90px;
+	margin-top:80px;
 	padding-top: 60px;
 	color:#FFF;
 }
@@ -1460,7 +1459,7 @@ label {
   .testimonial-quote cite {
 	color: gray;
 	display: block;
-	font-size: .8em;
+	font-size: 1em;
   }
   
   .testimonial-quote cite span {
