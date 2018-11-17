@@ -8,6 +8,7 @@ body {
 	line-height:1.5;
 	
 }
+
 h2.awesome{
   font-weight: 500;
   padding: 10px 0px 15px 0px;
@@ -1304,7 +1305,6 @@ label {
 	width:100%;
 	border:0px;
 	color:#333;
-	background-color:#e9d8c7;
 	border:0;
 }
 #contact input,#contact select {
